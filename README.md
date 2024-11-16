@@ -22,33 +22,7 @@ The columns are as follows: <br>
 ![Show_num_instant](IMG/Number%20of%20Instances%20per%20Class.jpg)
 
 
-but abvoisly we need some pre processing before going through ou
-r analyse due to a lot of problem ,as the figure above mention there is a balncing data problem and of course some data type and normalization problem 
-
-## II. Preprocessing
-
-### 2.1 Check for Non-null Values
-```python
-#delete nan values
-Data.dropna(axis = 0, how = "any", inplace=True)
-#Check the existence of null vaues
-Data.isna().sum()
-```
-
-| Column             | Number of Null Values |
-|--------------------|-----------------------|
-| MeshSize           | 0                     |
-| Compiler           | 0                     |
-| NumberofVariables  | 0                     |
-| VariableType       | 0                     |
-| NumberofNodes      | 0                     |
-| NumberofCores      | 0                     |
-| Dim                | 0                     |
-| Communication      | 0                     |
-
-
-
-### 2.2 Check Data Types
+### 1.2 Data Types
 As we noticed in the table bellow , some of our features are strings or objects, so we should convert or encode all the variables to become numerical values.
 
 | Column             | Data Type |
