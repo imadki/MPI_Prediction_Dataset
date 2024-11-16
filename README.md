@@ -5,7 +5,6 @@ High-performance computing (HPC) plays a crucial role in tackling complex scient
 
 The challenge, though, lies in the multitude of available MPI algorithms, with the best one depending on various factors like the nature of the problem, mesh size, compiler, problem dimensionality, and communicator characteristics. To overcome this challenge, an innovative approach has emerged: a machine learning-based model designed to predict the optimal MPI algorithm for specific PDE simulations. This model considers several critical parameters related to the simulation, such as the physical problem at hand, mesh size, compiler settings, problem dimensions, and communicator traits
 
-This study underscores the significance of careful selection when it comes to input features and training data, ensuring the model's accuracy and its ability to generalize to a wide range of PDE simulation scenarios. Ultimately, this research represents a significant step forward in the quest for more efficient and effective high-performance computing for PDEs, opening doors to new possibilities in various scientific and engineering domains.
 ### 1.1 Describe the Data Set
 We have a dataset with 23,544 entries and 8 columns. <br>
 The columns are as follows: <br>
