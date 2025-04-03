@@ -38,6 +38,7 @@ As we noticed in the table bellow , some of our features are strings or objects,
 
 ### 1.3 Cite the paper
 
+```bash
 @InProceedings{10.1007/978-981-96-4207-6_53,
 author="Kissami, Imad
 and Kalloubi, Fahd
@@ -53,4 +54,4 @@ address="Singapore",
 pages="592--606",
 isbn="978-981-96-4207-6"
 }
-
+```
