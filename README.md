@@ -34,3 +34,23 @@ As we noticed in the table bellow , some of our features are strings or objects,
 | NumberofCores      | int64     |
 | Dim                | int64     |
 | Communication      | object   |
+
+
+### 1.3 Cite the paper
+
+@InProceedings{10.1007/978-981-96-4207-6_53,
+author="Kissami, Imad
+and Kalloubi, Fahd
+and Kiddi, Mohamed",
+editor="Li, Yupeng
+and Zhang, Yong
+and Xu, Jianliang",
+title="Predicting MPI Communication for Solving Partial Differential Equations Using Machine Learning",
+booktitle="Parallel and Distributed Computing, Applications and Technologies",
+year="2025",
+publisher="Springer Nature Singapore",
+address="Singapore",
+pages="592--606",
+isbn="978-981-96-4207-6"
+}
+
